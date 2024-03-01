@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           useMaterial3: true,
           appBarTheme: const AppBarTheme(
-            centerTitle: true
+            centerTitle: false
           )
         ),
         

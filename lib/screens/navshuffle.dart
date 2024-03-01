@@ -34,7 +34,7 @@ class _NavState extends State<Nav> {
                 .semiBold
                 .size(28)
                 .make()),
-                body: Screens[currentindex],
+        body: Screens[currentindex],
         bottomNavigationBar: CurvedNavigationBar(
           color: Vx.gray300,
           animationCurve: Curves.decelerate,

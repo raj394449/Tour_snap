@@ -58,11 +58,27 @@ class _HomeState extends State<Home> {
           scrollDirection: Axis.horizontal,
           child: Row(
             children: [
-              BroadImage(imgURL: "https://www.rishikeshtourism.in/images/banner-3.jpg",name: "Rishikesh",),
-              BroadImage(imgURL: "https://mygate.com/wp-content/uploads/2023/08/159.jpg", name: "Goa"),
-              BroadImage(imgURL: "https://www.holidify.com/images/bgImages/MANIPUR.jpg", name: "Manipur"),
-              BroadImage(imgURL: "https://upload.wikimedia.org/wikipedia/commons/7/70/Neeulm_Valley_AJK_%28Arang_Kel%29.jpg", name: "Kashmir")
-
+              BroadImage(
+                imgURL: "https://www.rishikeshtourism.in/images/banner-3.jpg",
+                location: '',
+                name: "Rishikesh",
+              ),
+              BroadImage(
+                imgURL: "https://mygate.com/wp-content/uploads/2023/08/159.jpg",
+                location: '',
+                name: "Goa",
+              ),
+              BroadImage(
+                imgURL: "https://www.holidify.com/images/bgImages/MANIPUR.jpg",
+                location: '',
+                name: "Manipur",
+              ),
+              BroadImage(
+                imgURL:
+                    "https://upload.wikimedia.org/wikipedia/commons/7/70/Neeulm_Valley_AJK_%28Arang_Kel%29.jpg",
+                location: '',
+                name: "Kashmir",
+              )
             ],
           ),
         )
